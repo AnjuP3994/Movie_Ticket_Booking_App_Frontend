@@ -1,0 +1,23 @@
+.image{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 590px;
+    border-radius: 10px;
+    transition: transform 0.8s;
+}
+.image:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+.rating{
+    display: flex;
+    font-size: larger;
+}
+.rnum{
+    margin-top: 6px;
+    margin-left: 45px;
+}
+
+

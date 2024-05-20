@@ -1,0 +1,26 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+  .card1{
+    border-radius: 15px;
+    width: 15.1cm;
+    /* box-shadow: rgba(248, 203, 4, 0.458) -5px 6px 10px 4px; */
+  }
+  .btnregis, .btnlogin {
+    border: none;
+    background-color: rgba(0, 105, 129, 0.951);
+    border-radius: 8px;
+    padding: 7px 25px;
+    font-size: 16px;
+    color: rgb(228, 247, 255);
+    font-weight: 700;
+    box-shadow: 0 3px #999;
+  }
+  .btnregis:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(3px);
+  }
